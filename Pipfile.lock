@@ -1,0 +1,75 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "9fc0521aee056cd6a4700793a29e6b4c1f84d0a14bb666cb99808ee16b9d6456"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.4.2",
+            "os_name": "posix",
+            "platform_machine": "armv7l",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.9.41-v7+",
+            "platform_system": "Linux",
+            "platform_version": "#1023 SMP Tue Aug 8 16:00:15 BST 2017",
+            "python_full_version": "3.4.2",
+            "python_version": "3.4",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "adafruit-gpio": {
+            "hashes": [
+                "sha256:d6465b92c866c51ca8f3bc1e8f2ec36f5ccdb46d0fd54101c1109756d4a2dcd0"
+            ],
+            "version": "==1.0.3"
+        },
+        "adafruit-mcp3008": {
+            "hashes": [
+                "sha256:196a1a46186dc28351e0277b9e4b3c53ef4c224dbcfda2cfa483ff5ac45b492a",
+                "sha256:79a38083d71c48d16ba5f7a75cdb6c0a37a16aec506c88ae10341463af184c83"
+            ],
+            "version": "==1.0.2"
+        },
+        "adafruit-pureio": {
+            "hashes": [
+                "sha256:77c23283a9c5ef27995f64f8ad53ae5407d3596421546f0057430712b9998188",
+                "sha256:09d18650e62b72f07619af8efe421a991b15c55cfe7e17bb03f51b71a4e4954d"
+            ],
+            "version": "==0.2.1"
+        },
+        "ctrl9000": {
+            "git": "git://github.com/pigeon-working-group/ctrl9000.git",
+            "ref": "ab2952762e0dd3431807a834e56e730536f578f1"
+        },
+        "gpiozero": {
+            "hashes": [
+                "sha256:c0fe28462653ad178a4c64a0766e035d0e46d6c1d234e659c4d61e630ca85879",
+                "sha256:79d8f6da1ee7aa92d7d0dc27a53e1bc7ac312fe9efbff03e5dcf30dc99b828a8"
+            ],
+            "version": "==1.4.0"
+        },
+        "rpi.gpio": {
+            "hashes": [
+                "sha256:a5fc0eb5e401963b6c0a03650da6b42c4005f02d962b81241d96c98d0a578516"
+            ],
+            "version": "==0.6.3"
+        },
+        "spidev": {
+            "hashes": [
+                "sha256:09d2b5122f0dd79910713a11f9a0020f71537224bf829916def4fffc0ea59456"
+            ],
+            "version": "==3.2"
+        }
+    },
+    "develop": {}
+}

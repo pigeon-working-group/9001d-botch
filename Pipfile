@@ -1,0 +1,17 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"ctrl9000" = {git = "git://github.com/pigeon-working-group/ctrl9000.git", ref = "ab2952762e0dd3431807a834e56e730536f578f1"}
+"adafruit-mcp3008" = "==1.0.2"
+gpiozero = "==1.4.0"
+spidev = "==3.2"
+"rpi.gpio" = "==0.6.3"
+
+
+[dev-packages]
